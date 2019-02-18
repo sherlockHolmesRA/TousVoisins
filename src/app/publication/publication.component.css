@@ -1,0 +1,27 @@
+.divhed{
+    background-image: url('../../assets/fete-des-voisins.jpg');
+    background-position: cover;
+    background-size: 100% 100%;
+ 
+    background-repeat: no-repeat;
+
+}
+
+.navigation{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:solid,1px, gray;
+    
+  
+    
+}
+hr{
+    margin: 5%;
+    width: 80%;
+    height: 1px;
+    background-color:grey;
+    border: none; /*on supprime le style par défaut*/
+  }
+  .rayon{
+    border-left: 1px solid #404040;
+
+  }

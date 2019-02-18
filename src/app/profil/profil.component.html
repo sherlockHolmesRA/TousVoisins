@@ -1,0 +1,56 @@
+<div class="container-fluid bod">
+  <div>
+    <app-menu></app-menu>
+  </div>
+</div>
+<div class="row  ">
+  <div class="r1" id="map"></div>
+  <div class=" r2">
+    <app-cardprofil></app-cardprofil>
+  </div>
+
+  <div class="r3">
+    <h4> {{nbreOffre}} </h4>
+    <h5>Propositions</h5>
+  </div>
+  <div class="r4">
+    <h4> {{nbreSupply}} </h4>
+    <h5>Demandes</h5>
+  </div>
+  <div class="r5">
+    <h4> 10 </h4>
+    <h5>Marché conclue</h5>
+  </div>
+  <div class="r6">
+    <h4> 70% </h4>
+    <h5>Taux de réponse</h5>
+  </div>
+
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-6" style="position: absolute; top:400px; left:500px">
+      <h3>A propos de moi:</h3>
+      <p style="font-size: 1.2rem">{{profil.userDescription}}</p>
+      <hr>
+      <h3>Je répond aux demandes de:</h3>
+      <div>
+        <span *ngFor="let o of offre" class="badge badge-pill badge-primary">{{o.product.catService}}{{o.product.catObjet}}</span>
+      </div>
+
+      <hr>
+      <h3>Capitale de confiance:</h3>
+      <p>Avis des voisins (Total 86 avis):</p>
+      <app-star-rating [rating]="profil.userRank" [dataSet]="dataSet"></app-star-rating>
+      <h5>Commentaires des voisins:</h5>
+
+      <app-feedback></app-feedback>
+
+
+
+
+    </div>
+  </div>
+
+
+
+</div>

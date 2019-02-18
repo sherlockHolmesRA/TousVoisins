@@ -1,0 +1,81 @@
+.divhed{
+    background-image: url('../../assets/smiile.png');
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+.navigationGauche{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin-left: 1%; 
+  background-color:#ccd9ff;
+}
+
+.navigation{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-left: 1%; 
+    background-color:white;
+}
+.choice{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+
+}
+
+.b:hover {
+  background-color: #4d79ff;
+ font-size: 1.2rem
+}
+
+.bb:hover {
+ 
+ font-size: 1.2rem;
+}
+
+.bb :active{
+  background-color:#4d79ff
+}
+hr{
+    margin: 3%;
+    width: 100%;
+    height: 1px;
+    background-color:grey;
+    border: none; /*on supprime le style par défaut*/
+  }
+
+ 
+
+  /* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  
+  a:visited {
+    color: green;
+  }
+  
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+  
+  a:active {
+    color: blue;
+  }
+
+  hr1{
+    margin: 5%;
+    width: 100%;
+    height: 1px;
+    background-color:grey;
+    border: none; /*on supprime le style par défaut*/
+  }
+  
+
+ 
